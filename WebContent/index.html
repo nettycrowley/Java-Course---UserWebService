@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Database</title>
+<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="js/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="menu">
+	<ul>
+		<a href="index.html"><li><i class="fa fa-home"></i>Home</li></a>
+		<a href="jQueryUiTest.html"><li><i class="fa fa-product-hunt"></i>jQuery UI</li></a>
+		<a href="users.html"><li><i class="fa fa-users"></i>Users</li></a>
+		<a href="about.html"><li><i class="fa fa-info-circle"></i>About</li></a>
+	</ul>
+</div><br>
+<header>
+<h3>User Database</h3>
+</header>
+
+<div id="main">
+
+<table id="userTable">
+<thead>
+	<tr>
+		<th>ID</th>
+		<th>FirstName</th>
+		<th>LastName</th>
+		<th>Registered</th>
+		<th>Date of Birth</th>	
+		<th colspan="4">Operations</th>	
+	</tr>
+	<tr>
+	<td colspan="5">&nbsp</td>
+	<td id="addButton" class ="tdButton fa fa-plus"></td>
+	</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+</div>
+<input type="button" name="addButton" id="addButton" value="Add">
+
+<div id="dialogDiv" title="Are you sure?">
+Are you sure you want to delete the item?
+</div>
+
+<div id="dialogAdd" title="Add a user?">
+	<div id="addErrorMessage"></div>
+	FirstName:<input type = "text" name="dlgFirstName" id="dlgFirstName" ><br>
+	LastName:<input type = "text" name="dlgLastName" id="dlgLastName" ><br>
+	Registered:<input type = "checkbox" name="dlgRegistered" id="dlgRegistered" ><br>
+	Date of Birth:<input type = "text" name="dlgDateOfBirth" id="dlgDateOfBirth" ><br>
+	
+</div>
+
+<footer>
+<div id="footerdiv">
+Footer
+</div></footer>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+<script src= "js/tableFunctions.js"></script>
+<script src= "js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+</body>
+</html>

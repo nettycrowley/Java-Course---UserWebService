@@ -1,0 +1,118 @@
+header {
+	background-color: #0e4e74;
+	width:98%;
+	height:150px;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+	vertical-align: center;
+	
+}
+#dialogDiv{
+	display: none;
+	width: 250px;
+	height: 100px;
+}
+
+#dialogAdd{
+	display: none;
+}
+
+#main {
+	
+	width:90%;
+}
+
+table, tr, th {
+	border: 5px solid black;
+}
+
+#userTable {
+	border: 1px solid black;	
+	margin-left:auto;
+	margin-right:auto;
+	padding: 20px;
+}
+
+#userTable thead tr{
+	background-color: #c7d7ea;
+	color: white;
+	
+}
+#userTable tbody tr:nth-child(odd){
+	background: #e4e4e4;
+}
+
+#userTable tbody tr:nth-child(even){
+	background: #F5F6FA;
+}
+
+#userTable {
+	font: 16px Arial, sans-serif;
+}
+
+.tdButton:hover {
+	background-color: #aaaaaa;
+	color: red;
+}
+/*#userTable tbody tr:hover{
+	background-color: #888888;
+}*/
+
+.ui-widget{
+	font-size:15px;
+}
+
+
+.disabled {
+	colour:blue;
+}
+
+.td_small {
+	min-width:25px;
+	max-width:25px;
+}
+
+.td_medium {
+	min-width: 75px;
+	max-width: 75px;
+}
+
+.centred{
+	text-align:center;
+}
+
+.tdButton{
+	padding-left: 25px;
+	padding-right: 25px;
+}
+footer {
+	background-color: #0e4e74;
+	width:98%;
+	height:100px;
+	vertical-align: bottom;
+}
+
+#menu ul {
+	display: block;
+	padding 0;
+	
+	
+}
+#menu li {
+	float: left;
+	display: block;
+	background-color: #e0e0e0;
+	width: 85px;
+	text-align: center;
+	padding: 3px;
+	
+	border-bottom: 1px solid black;
+}
+
+#menu i {
+	padding-right: 5px;
+}
+#menu li:hover {
+	background-color: #ffffff;
+}
